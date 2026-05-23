@@ -1,13 +1,17 @@
 Package: auditr
-Title: What the Package Does (One Line, Title Case)
+Title: Plastic Data Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Avery", "Stewart", , "astewa28@calpoly.edu", role = c("aut", "cre"))
+Description: This package loads in data from BFFR from 2019 and 2020 about plastic waste for different countries measured through audits then performs a data analysis on this data to uncover which enviromental, economic, and demographic factors, if any, contribute the most to plastic pollution. The goal of this package is to shed light on the companies that seem to contribute to plastic pollution the most.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
-Imports: 
-    readr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/astewa28/auditr
+BugReports: https://github.com/astewa28/auditr/issues
