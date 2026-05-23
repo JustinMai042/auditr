@@ -17,3 +17,18 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(auditr)
 ```
+
+
+```{r}
+plastic_proportions(plastics_clean, country = "Argentina", year = 2019)
+```
+
+This should make a summary table of the proportions of each plastic type over all companies found in the Argentina audits for the year 2019.
+
+
+```{r}
+plot_plastic_gdp(plastics_clean, year = 2020)
+```
+
+This function should plot the total plastic count versus the gdp for each country for the year 2020. There should be one point for each country in the data.
+
