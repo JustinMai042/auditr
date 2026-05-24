@@ -14,3 +14,5 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/JustinMai042/auditr
 BugReports: https://github.com/JustinMai042/auditr/issues
+Imports:
+    readr
